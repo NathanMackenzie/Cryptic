@@ -1,0 +1,28 @@
+.root{
+    -fx-background-color: rgba(0, 0, 0, .85);
+}
+
+#exit{
+    -fx-background-color: transparent;
+    -fx-graphic: url(/icons/exit.png);
+}
+
+#exit:hover{
+    -fx-background-color: transparent;
+    -fx-graphic: url(/icons/exit_hover.png);
+}
+
+#addUser{
+    -fx-background-color: rgb(255, 89, 47);
+    -fx-text-fill: rgb(76, 76, 76);
+}
+
+#userNameField{
+    -fx-background-color: rgb(189, 191, 172);
+    -fx-prompt-text-fill: rgb(76, 76, 76);
+}
+
+#passwordField, #verifyPasswordField{
+    -fx-background-color: rgb(189, 191, 172);
+    -fx-prompt-text-fill: rgb(76, 76, 76);
+}

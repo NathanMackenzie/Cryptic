@@ -4,6 +4,7 @@ import cryptic.model.NewUserModel;
 import cryptic.model.SQLiteDatabase;
 
 import cryptic.view.WindowView;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.Parent;
 import javafx.scene.control.PasswordField;
@@ -50,5 +51,10 @@ public class NewUserController {
         }else{
             warningLabel.setText("Passwords Don't Match");
         }
+    }
+
+    @FXML
+    public void exit(){
+        Platform.exit();
     }
 }

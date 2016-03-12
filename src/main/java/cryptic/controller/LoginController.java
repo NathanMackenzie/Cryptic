@@ -4,6 +4,7 @@ import cryptic.model.LoginModel;
 import cryptic.view.NewUserView;
 import cryptic.view.WindowView;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.Parent;
 import javafx.scene.control.PasswordField;
@@ -50,6 +51,11 @@ public class LoginController {
     @FXML
     public void newUser(){
         new NewUserView((Stage) root.getScene().getWindow());
+    }
+
+    @FXML
+    public void exit(){
+        Platform.exit();
     }
 
 }
