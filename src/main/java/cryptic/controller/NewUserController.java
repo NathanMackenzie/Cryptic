@@ -45,8 +45,8 @@ public class NewUserController {
             if(!db.addUser(userNameField.getText(), passwordField.getText())){
                 warningLabel.setText("User Already Exists");
             }else{
-                new WindowView((Stage) root.getScene().getWindow(),
-                        db.login(userNameField.getText(), passwordField.getText()));
+                new WindowView(db.login(userNameField.getText(), passwordField.getText()));
+                root.getScene().getWindow().hide();
             }
         }else{
             warningLabel.setText("Passwords Don't Match");

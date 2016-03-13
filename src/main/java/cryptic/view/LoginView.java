@@ -41,7 +41,7 @@ public class LoginView extends Application {
             LOGGER.log(Level.SEVERE, "Failed to locate login view!", e);
         }
 
-        Scene scene = new Scene(root, 250, 350, Color.TRANSPARENT);
+        Scene scene = new Scene(root, 230, 350, Color.TRANSPARENT);
 
         // Listeners for window dragging
         scene.setOnMouseDragged(e -> mouseDragged(e));

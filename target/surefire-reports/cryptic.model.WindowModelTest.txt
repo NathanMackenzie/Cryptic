@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: cryptic.model.WindowModelTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+cryptic.model.WindowModelTest.testAddEmail()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at cryptic.model.WindowModelTest.testAddEmail(WindowModelTest.java:28)

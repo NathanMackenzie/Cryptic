@@ -42,7 +42,7 @@ public class NewUserView {
             LOGGER.log(Level.SEVERE, "Failed to locate new user view!", e);
         }
 
-        Scene scene = new Scene(root, 250, 350, Color.TRANSPARENT);
+        Scene scene = new Scene(root, 230, 350, Color.TRANSPARENT);
 
         // Listeners for window dragging
         scene.setOnMouseDragged(e -> mouseDragged(e));

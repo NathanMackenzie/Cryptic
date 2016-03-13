@@ -1,0 +1,9 @@
+#add{
+    -fx-background-color: transparent;
+    -fx-graphic: url("/icons/add.png");
+}
+
+#add:hover{
+    -fx-background-color: #4D4D4D;
+    -fx-graphic: url("/icons/add.png");
+}

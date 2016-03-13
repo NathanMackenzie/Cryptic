@@ -44,7 +44,8 @@ public class LoginController {
         if(userID == -1){
             warningLabel.setText("Username or Password Incorrect");
         }else{
-            new WindowView((Stage) userNameField.getScene().getWindow(), userID);
+            new WindowView(userID);
+            root.getScene().getWindow().hide();
         }
     }
 

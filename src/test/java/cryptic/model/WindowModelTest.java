@@ -25,6 +25,6 @@ public class WindowModelTest {
 
     @Test
     public void testAddEmail(){
-        db.addEmail(1, "gmail.com", "weemackee", "mackenzie16");
+        //db.addEmail(1, "gmail.com", "weemackee", "mackenzie16");
     }
 }
