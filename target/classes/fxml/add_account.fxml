@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.*?>
@@ -14,16 +15,18 @@
              <ComboBox fx:id="comboBox" layoutX="140.0" layoutY="12.0" prefHeight="27.0" prefWidth="120.0" style="-fx-background-color: #BDBFAC;">
                  <items>
                      <FXCollections fx:factory="observableArrayList">
-                         <String fx:value="Email" />
+                         <String fx:value="Regular Acct." />
+                         <String fx:value="Credit Card" />
                      </FXCollections>
                  </items>
              </ComboBox>
          </children>
       </Pane>
-      <Pane fx:id="content" prefHeight="300.0" prefWidth="400.0" />
-      <Pane prefHeight="50.0" prefWidth="400.0">
+      <Pane fx:id="content" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #4D4D4D;" />
+      <Pane prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #393939;">
          <children>
             <Button layoutX="326.0" layoutY="12.0" mnemonicParsing="false" onAction="#add" prefHeight="27.0" prefWidth="60.0" style="-fx-background-color: #FF592F; -fx-text-fill: #4D4D4D;" text="Add" />
+            <Text fx:id="warningLabel" layoutX="14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FF592F;" wrappingWidth="294.21875" />
          </children>
       </Pane>
    </children>

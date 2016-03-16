@@ -1,0 +1,10 @@
+.label{
+    -fx-text-fill: #FF592F;
+    -fx-font-size: 14pt;
+    -fx-font-family: "Avenir Medium";
+}
+
+.text-field{
+    -fx-background-color: #BDBFAC;
+
+}
