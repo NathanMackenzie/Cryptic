@@ -38,6 +38,9 @@ public class AddAccountController {
                     case 0:
                         loadReg();
                         break;
+                    case 1:
+                        loadCreditCard();
+                        break;
                 }
             }
         });
@@ -48,6 +51,15 @@ public class AddAccountController {
         try{
             content.getChildren().clear();
             content.getChildren().add(FXMLLoader.load(getClass().getResource("/fxml/dialogues/reg_account.fxml")));
+        }catch (Exception e){
+            System.out.print(e);
+        }
+    }
+
+    private void loadCreditCard(){
+        try {
+            content.getChildren().clear();
+            content.getChildren().add(FXMLLoader.load(getClass().getResource("/fxml/dialogues/credit_card.fxml")));
         }catch (Exception e){
             System.out.print(e);
         }
@@ -70,6 +82,13 @@ public class AddAccountController {
         }
 
     }
+
+    private void addCreditCard(){
+        TextField name = (TextField) content.lookup("#ccName");
+        TextField ccNum = (TextField) content.lookup("#ccNum");
+
+    }
+
 
     public void add(){
         switch (comboBox.getSelectionModel().getSelectedIndex()){

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" style="-fx-background-color: #4D4D4D;" stylesheets="@../../css/add_account.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <GridPane prefHeight="600.0" prefWidth="381.0" style="-fx-background-color: #4D4D4D;">
+        <columnConstraints>
+          <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="187.0" minWidth="10.0" prefWidth="132.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="252.0" minWidth="10.0" prefWidth="251.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="23.0" prefWidth="107.0" text="Card Name:" />
+            <Label text="Type:" GridPane.rowIndex="1" />
+            <Label text="Card Number:" GridPane.rowIndex="2" />
+            <Label text="Expiry Date:" GridPane.rowIndex="3" />
+            <Label text="CVV:" GridPane.rowIndex="4" />
+            <Label text="Pin:" GridPane.rowIndex="5" />
+            <Label text="First Name:" GridPane.rowIndex="6" />
+            <Label text="Middle Name:" GridPane.rowIndex="7" />
+            <Label text="Last Name:" GridPane.rowIndex="8" />
+            <Label text="Address:" GridPane.rowIndex="9" />
+            <Label text="City:" GridPane.rowIndex="10" />
+            <Label text="State:" GridPane.rowIndex="11" />
+            <Label text="Zip Code:" GridPane.rowIndex="12" />
+            <Label text="Country:" GridPane.rowIndex="13" />
+            <Label text="Phone No.:" GridPane.rowIndex="14" />
+            <TextField fx:id="ccName" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccNum" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccMiddleName" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccFirstName" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccLastName" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccAddress" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccCity" GridPane.columnIndex="1" GridPane.rowIndex="10">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccState" GridPane.columnIndex="1" GridPane.rowIndex="11">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccZip" GridPane.columnIndex="1" GridPane.rowIndex="12">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccCountry" GridPane.columnIndex="1" GridPane.rowIndex="13">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccPhoneNum" GridPane.columnIndex="1" GridPane.rowIndex="14">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccPin" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="ccCVV" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <ComboBox prefHeight="27.0" prefWidth="251.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </ComboBox>
+            <ComboBox prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </ComboBox>
+            <ComboBox prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="140.0" />
+               </GridPane.margin>
+            </ComboBox>
+            <Text fill="#ff592f" strokeType="OUTSIDE" strokeWidth="0.0" text="/" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="122.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </GridPane>
+   </content>
+</ScrollPane>
